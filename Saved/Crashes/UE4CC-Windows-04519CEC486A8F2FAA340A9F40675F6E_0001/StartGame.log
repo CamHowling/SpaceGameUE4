@@ -1,0 +1,998 @@
+﻿Log file open, 08/28/20 10:56:51
+LogInit: Display: Running engine for game: StartGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.083263
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13144385
+LogInit: Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 9 3900X 12-Core Processor            , GPU: NVIDIA GeForce RTX 2080
+LogInit: Compiled (64-bit): May  2 2020 02:12:11
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line:  -EpicPortal -epicusername=WolfsMind -epicuserid=308da850054d4e7598283afc7dc6056e -epiclocale=en
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Engine.ini]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:2]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.DBuffer:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Engine.ini]
+[2020.08.28-00.56.51:887][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Engine.ini]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Engine.ini]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.28-00.56.51:887][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Engine.ini]
+[2020.08.28-00.56.51:887][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Engine.ini]
+[2020.08.28-00.56.51:891][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.28-00.56.51:891][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.28-00.56.51:892][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.28-00.56.51:892][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.28-00.56.51:892][  0]LogHAL: Display: Platform has ~ 32 GB [34304450560 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.28-00.56.51:892][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.28-00.56.51:892][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.28-00.56.51:892][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Scalability.ini]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.08.28-00.56.51:893][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Work/Desktop/SpaceGame/Saved/Config/Windows/Engine.ini]
+[2020.08.28-00.56.51:893][  0]LogInit: Computer: WOLFSMIND
+[2020.08.28-00.56.51:893][  0]LogInit: User: WolfsMind
+[2020.08.28-00.56.51:893][  0]LogInit: CPU Page size=4096, Cores=12
+[2020.08.28-00.56.51:893][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.28-00.56.51:894][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2020.08.28-00.56.51:894][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.28-00.56.51:894][  0]LogMemory: Process Physical Memory: 116.59 MB used, 116.59 MB peak
+[2020.08.28-00.56.51:894][  0]LogMemory: Process Virtual Memory: 100.36 MB used, 100.36 MB peak
+[2020.08.28-00.56.51:894][  0]LogMemory: Physical Memory: 9480.14 MB used,  23235.14 MB free, 32715.27 MB total
+[2020.08.28-00.56.51:894][  0]LogMemory: Virtual Memory: 5228.41 MB used,  134212496.00 MB free, 134217728.00 MB total
+[2020.08.28-00.56.51:897][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.28-00.56.51:920][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.08.28-00.56.51:921][  0]LogInit: Using OS detected language (en-US).
+[2020.08.28-00.56.51:921][  0]LogInit: Using OS detected locale (en-AU).
+[2020.08.28-00.56.51:923][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.08.28-00.56.52:056][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.28-00.56.52:082][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.28-00.56.52:082][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.28-00.56.52:184][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.28-00.56.52:184][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.28-00.56.52:184][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.28-00.56.52:184][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.28-00.56.52:253][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
+[2020.08.28-00.56.52:253][  0]LogD3D11RHI:       8010/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.08.28-00.56.52:255][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.28-00.56.52:255][  0]LogD3D11RHI:       0/0/16357 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.28-00.56.52:255][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.28-00.56.52:264][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.28-00.56.52:264][  0]LogD3D11RHI:     GPU DeviceId: 0x1e87 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.28-00.56.52:264][  0]LogWindows: EnumDisplayDevices:
+[2020.08.28-00.56.52:265][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
+[2020.08.28-00.56.52:265][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:1)
+[2020.08.28-00.56.52:265][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.08.28-00.56.52:265][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
+[2020.08.28-00.56.52:265][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.08.28-00.56.52:265][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
+[2020.08.28-00.56.52:265][  0]LogD3D11RHI:   Driver Version: 445.87 (internal:26.21.14.4587, unified:445.87)
+[2020.08.28-00.56.52:265][  0]LogD3D11RHI:      Driver Date: 4-3-2020
+[2020.08.28-00.56.52:265][  0]LogRHI: Texture pool is 5607 MB (70% of 8010 MB)
+[2020.08.28-00.56.52:306][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.08.28-00.56.52:308][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.08.28-00.56.52:308][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.28-00.56.52:308][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.08.28-00.56.52:328][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.08.28-00.56.52:537][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.28-00.56.52:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.28-00.56.52:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.28-00.56.52:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.28-00.56.52:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.28-00.56.52:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.28-00.56.52:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.28-00.56.52:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.28-00.56.52:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.28-00.56.52:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.28-00.56.52:556][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.28-00.56.52:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.28-00.56.52:576][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.28-00.56.52:584][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.08.28-00.56.52:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.28-00.56.52:600][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.28-00.56.52:607][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.28-00.56.52:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.28-00.56.52:622][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.28-00.56.52:630][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.28-00.56.52:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.28-00.56.52:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.28-00.56.52:665][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.28-00.56.52:665][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.28-00.56.52:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.28-00.56.52:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.28-00.56.52:688][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.28-00.56.52:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.28-00.56.52:696][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.28-00.56.52:701][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.28-00.56.52:745][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../../Users/Work/Desktop/SpaceGame/Intermediate/Shaders/WorkingDirectory/27956/).
+[2020.08.28-00.56.52:745][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/WolfsMind/AppData/Local/Temp/UnrealShaderWorkingDir/15E96B00423E8F39BBCFB5BBF6ABB4BF/'.
+[2020.08.28-00.56.52:746][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.28-00.56.52:746][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.28-00.56.52:746][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.28-00.56.53:411][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.28-00.56.53:475][  0]LogDerivedDataCache: Loaded boot cache 0.06s 151MB C:/Users/WolfsMind/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.28-00.56.53:475][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/WolfsMind/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.08.28-00.56.53:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Work/Desktop/SpaceGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.28-00.56.53:475][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.28-00.56.53:475][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Work/Desktop/SpaceGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.28-00.56.53:475][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.28-00.56.53:485][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.28-00.56.53:485][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.28-00.56.53:485][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.28-00.56.53:486][  0]LogDerivedDataCache: Using Local data cache path C:/Users/WolfsMind/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.28-00.56.53:486][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.28-00.56.53:486][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.28-00.56.53:537][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.28-00.56.53:537][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.28-00.56.53:555][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2020.08.28-00.56.53:764][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.28-00.56.53:856][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.28-00.56.53:856][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.28-00.56.53:856][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.28-00.56.53:856][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.28-00.56.53:856][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.28-00.56.53:869][  0]LogNetVersion: StartGame 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 615682147)
+[2020.08.28-00.56.54:181][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D8E7C92B00), frame # 0
+[2020.08.28-00.56.54:181][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D8E7C2ED40), frame # 0
+[2020.08.28-00.56.54:182][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D8E7C79E00), frame # 0
+[2020.08.28-00.56.54:226][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.038718 seconds
+[2020.08.28-00.56.54:231][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.08.28-00.56.54:231][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.08.28-00.56.54:231][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.28-00.56.54:493][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.28-00.56.54:497][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.28-00.56.54:553][  0]SourceControl: Source control is disabled
+[2020.08.28-00.56.54:553][  0]SourceControl: Source control is disabled
+[2020.08.28-00.56.54:555][  0]SourceControl: Source control is disabled
+[2020.08.28-00.56.54:557][  0]SourceControl: Source control is disabled
+[2020.08.28-00.56.54:561][  0]SourceControl: Source control is disabled
+[2020.08.28-00.56.54:740][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.28-00.56.54:755][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.28-00.56.54:755][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.28-00.56.54:794][  0]LogOcInput: OculusInput pre-init called
+[2020.08.28-00.56.54:803][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.08.28-00.56.54:803][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.08.28-00.56.54:856][  0]LogEngine: Initializing Engine...
+[2020.08.28-00.56.54:857][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.08.28-00.56.54:857][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.08.28-00.56.54:858][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.28-00.56.54:952][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.28-00.56.54:958][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.28-00.56.54:958][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D8EBEE3C00), frame # 0
+[2020.08.28-00.56.54:958][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D8EBEDFB00), frame # 0
+[2020.08.28-00.56.54:967][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.28-00.56.54:967][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.28-00.56.54:967][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.28-00.56.54:967][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.28-00.56.54:967][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.28-00.56.54:967][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.28-00.56.54:967][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.28-00.56.54:967][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.28-00.56.54:967][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.28-00.56.54:967][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.28-00.56.54:978][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.28-00.56.54:978][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.28-00.56.55:003][  0]LogAudioMixer: Display: Using Audio Device Headphones (ATH-SR30BT Stereo)
+[2020.08.28-00.56.55:004][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.28-00.56.55:006][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.28-00.56.55:006][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.28-00.56.55:007][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.28-00.56.55:007][  0]LogInit: FAudioDevice initialized.
+[2020.08.28-00.56.55:007][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.28-00.56.55:081][  0]LogDerivedDataCache: Saved boot cache 0.07s 151MB C:/Users/WolfsMind/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.28-00.56.55:084][  0]LogInit: Texture streaming: Enabled
+[2020.08.28-00.56.55:097][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.28-00.56.55:097][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.28-00.56.55:098][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.28-00.56.55:138][  0]LogInit: Transaction tracking system initialized
+[2020.08.28-00.56.55:154][  0]BlueprintLog: New page: Editor Load
+[2020.08.28-00.56.55:202][  0]LocalizationService: Localization service is disabled
+[2020.08.28-00.56.55:330][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.28-00.56.55:330][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.28-00.56.55:425][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Work/Desktop/SpaceGame/Content/' took 0.04s
+[2020.08.28-00.56.55:552][  0]SourceControl: Source control is disabled
+[2020.08.28-00.56.55:552][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.761
+[2020.08.28-00.56.55:552][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/PlayLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.28-00.56.55:552][  0]LightingResults: New page: Lighting Build
+[2020.08.28-00.56.55:553][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-00.56.55:553][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-00.56.55:553][  0]MapCheck: New page: Map Check
+[2020.08.28-00.56.55:553][  0]LightingResults: New page: Lighting Build
+[2020.08.28-00.56.55:575][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D8EBEE3C00), frame # 0
+[2020.08.28-00.56.55:575][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D8EBEDFB00), frame # 0
+[2020.08.28-00.56.55:576][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.08.28-00.56.55:820][  0]LogTexture: Display: Building textures: COVID-19000 (AutoDXT, 400X300)
+[2020.08.28-00.56.55:820][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave laser1...
+[2020.08.28-00.56.55:820][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/laser1.laser1 will be modified from 40 to 40.
+[2020.08.28-00.56.55:840][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 145152 while cooking SoundWave /Game/Sounds/laser1.laser1.
+[2020.08.28-00.56.55:842][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Deeper...
+[2020.08.28-00.56.55:873][  0]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Sounds/Deeper.Deeper will be modified from 40 to 40.
+[2020.08.28-00.56.59:127][  0]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 45504000 while cooking SoundWave /Game/Sounds/Deeper.Deeper.
+[2020.08.28-00.56.59:169][  0]LogTexture: Display: Building textures: ShipGameEnemy202002L4 (AutoDXT, 256X256)
+[2020.08.28-00.56.59:169][  0]LogTexture: Display: Building textures: ShipGameEnemy202002L3 (AutoDXT, 256X256)
+[2020.08.28-00.56.59:169][  0]LogTexture: Display: Building textures: ShipGameEnemy202002L2 (AutoDXT, 256X256)
+[2020.08.28-00.56.59:169][  0]LogTexture: Display: Building textures: ShipGameEnemy202002L1 (AutoDXT, 256X256)
+[2020.08.28-00.56.59:171][  0]LogAIModule: Creating AISystem for world PlayLevel
+[2020.08.28-00.56.59:171][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D8CF0C0A00), frame # 0
+[2020.08.28-00.56.59:171][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D8CF0B8A40), frame # 0
+[2020.08.28-00.56.59:178][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.28-00.56.59:194][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.08.28-00.56.59:195][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.28-00.56.59:195][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.154ms to complete.
+[2020.08.28-00.56.59:195][  0]LogFileHelpers: Loading map 'PlayLevel' took 3.643
+[2020.08.28-00.56.59:197][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.405
+[2020.08.28-00.56.59:313][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.28-00.56.59:319][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.28-00.56.59:324][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.28-00.56.59:329][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.28-00.56.59:338][  0]LogCollectionManager: Loaded 0 collections in 0.001587 seconds
+[2020.08.28-00.56.59:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Work/Desktop/SpaceGame/Saved/Collections/' took 0.00s
+[2020.08.28-00.56.59:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Work/Desktop/SpaceGame/Content/Developers/WolfsMind/Collections/' took 0.00s
+[2020.08.28-00.56.59:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Work/Desktop/SpaceGame/Content/Collections/' took 0.00s
+[2020.08.28-00.56.59:359][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 3426 classes and 820 folders.
+[2020.08.28-00.56.59:363][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.28-00.56.59:478][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.28-00.56.59:481][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.08.28-00.56.59:574][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.28-00.56.59:575][  0]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.28-00.56.59:582][  0]LogSlate: Took 0.002225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.28-00.56.59:640][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.08.28-00.56.59:687][  0]LogSlate: Took 0.002286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.28-00.56.59:722][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.28-00.56.59:722][  0]LogLoad: (Engine Initialization) Total time: 8.93 seconds
+[2020.08.28-00.56.59:722][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.28-00.56.59:774][  0]LogAssetRegistry: Asset discovery search completed in 6.2196 seconds
+[2020.08.28-00.56.59:778][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.08.28-00.56.59:779][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.08.28-00.57.00:769][ 58]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.08.28-00.58.34:018][650]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/OwensSet/Images/Enemies/Enemy01_Idle_Frames/Enemy01_Idle_001.Enemy01_Idle_001
+[2020.08.28-00.58.34:037][650]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.08.28-00.58.40:329][  7]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/OwensSet/Images/Enemies/Enemy01_Idle_Frames/Enemy01_Idle_004.Enemy01_Idle_004
+[2020.08.28-00.58.41:101][ 40]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/OwensSet/Images/Enemies/Enemy01_Idle_Frames/Enemy01_Idle_003.Enemy01_Idle_003
+[2020.08.28-00.58.41:950][ 75]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/OwensSet/Images/Enemies/Enemy01_Idle_Frames/Enemy01_Idle_002.Enemy01_Idle_002
+[2020.08.28-00.58.46:543][337]LogSlate: Window 'Enemy01_Idle_002' being destroyed
+[2020.08.28-00.58.46:552][337]LogSlate: Window 'Enemy01_Idle_002' being destroyed
+[2020.08.28-01.00.02:765][905]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BlueprintsClasses/Enemies/Enemy.Enemy
+[2020.08.28-01.00.02:919][905]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.08.28-01.00.03:646][905]LogSlate: Took 0.000191 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.08.28-01.00.03:692][906]LogSlate: Took 0.002143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.08.28-01.00.05:112][992]LogRenderer: Reallocating scene render targets to support 1208x708 Format 10 NumSamples 1 (Frame:1).
+[2020.08.28-01.00.45:576][128]LogTexture: Display: Building textures: enemy-big001 (AutoDXT, 32X32)
+[2020.08.28-01.00.45:576][128]LogTexture: Display: Building textures: enemy-big002 (AutoDXT, 32X32)
+[2020.08.28-01.07.00:193][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.08.28-01.07.00:195][ 71]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayLevel" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Saved/Autosaves/Game/PlayLevel_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.08.28-01.07.00:221][ 71]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/PlayLevel_Auto139ADB86C4A08B08FA31BC39D1C5A9725.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Autosaves/Game/PlayLevel_Auto1.umap'
+[2020.08.28-01.07.00:223][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PlayLevel' took 0.057
+[2020.08.28-01.07.00:223][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.057
+[2020.08.28-01.07.00:223][ 71]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BlueprintsClasses/Enemies/Enemy] ([1] browsable assets)...
+[2020.08.28-01.07.00:223][ 71]OBJ SavePackage: Finished generating thumbnails for package [/Game/BlueprintsClasses/Enemies/Enemy]
+[2020.08.28-01.07.00:236][ 71]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Enemy_Auto1D1825DC5433926919B1A889B84EC4894.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Autosaves/Game/BlueprintsClasses/Enemies/Enemy_Auto1.uasset'
+[2020.08.28-01.07.00:238][ 71]LogFileHelpers: Auto-saving content packages took 0.015
+[2020.08.28-01.23.14:883][443]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WolfsMind\Documents\Aseprite\COVID-19000-Final.png)
+[2020.08.28-01.23.14:887][443]LogTexture: Display: Building textures: COVID-19000-Final (BGRA8, 1794X164)
+[2020.08.28-01.23.33:776][411]LogSlate: Window 'Extract sprites' being destroyed
+[2020.08.28-01.24.03:672][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.08.28-01.24.03:673][571]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PlayLevel' took 0.021
+[2020.08.28-01.24.03:674][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art_Assets/CamsSet/COVID-19000-Final] ([1] browsable assets)...
+[2020.08.28-01.24.03:676][571]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art_Assets/CamsSet/COVID-19000-Final.COVID-19000-Final]
+[2020.08.28-01.24.03:676][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art_Assets/CamsSet/COVID-19000-Final]
+[2020.08.28-01.24.03:679][571]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final_Auto280ED0E8B453814FD4FC0F084067D1EBA.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Autosaves/Game/Art_Assets/CamsSet/COVID-19000-Final_Auto2.uasset'
+[2020.08.28-01.24.03:680][571]LogFileHelpers: Auto-saving content packages took 0.006
+[2020.08.28-01.24.30:501][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2020.08.28-01.24.31:960][743]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.28-01.24.32:040][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.08.28-01.24.35:879][880]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WolfsMind\Documents\Aseprite\COVID-19000-Final.png)
+[2020.08.28-01.24.35:883][880]LogTexture: Display: Building textures: COVID-19000-Final (AutoDXT, 1844X164)
+[2020.08.28-01.24.43:672][262]LogSlate: Window 'Extract sprites' being destroyed
+[2020.08.28-01.24.56:370][ 21]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SAssetView [SContentBrowser.cpp(784)].
+[2020.08.28-01.24.57:578][ 91]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Art_Assets/CamsSet/COVID-19000-Final1.COVID-19000-Final1
+[2020.08.28-01.25.00:195][205]LogRenderer: Reallocating scene render targets to support 1528x788 Format 10 NumSamples 1 (Frame:116).
+[2020.08.28-01.25.13:662][ 16]LogSlate: Window 'COVID-19000-Final1' being destroyed
+[2020.08.28-01.25.13:680][ 16]LogSlate: Window 'COVID-19000-Final1' being destroyed
+[2020.08.28-01.25.13:687][ 16]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.25.13:687][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.25.29:079][383]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_1.COVID-19000-Final_Sprite_1
+[2020.08.28-01.25.29:217][383]LogRenderer: Reallocating scene render targets to support 1528x916 Format 10 NumSamples 1 (Frame:1).
+[2020.08.28-01.25.58:168][890]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final_Sprite_1FD4EDF1E4516CF3698B057A918FD0C3F.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final_Sprite_1.uasset'
+[2020.08.28-01.25.58:203][890]AssetCheck: New page: Asset Save: COVID-19000-Final_Sprite_1
+[2020.08.28-01.25.58:203][890]LogContentValidation: Display: Validating PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_1.COVID-19000-Final_Sprite_1
+[2020.08.28-01.26.01:876][ 62]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Art_Assets/CamsSet/COVID-19000-Final1.COVID-19000-Final1
+[2020.08.28-01.26.05:850][267]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.26.05:850][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.26.06:641][307]LogSlate: Window 'COVID-19000-Final_Sprite_1' being destroyed
+[2020.08.28-01.26.06:668][307]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.26.06:668][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.26.07:607][361]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_1.COVID-19000-Final_Sprite_1
+[2020.08.28-01.26.14:184][700]LogSlate: Window 'COVID-19000-Final_Sprite_1' being destroyed
+[2020.08.28-01.26.14:201][700]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.26.14:201][700]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.26.15:108][753]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_0.COVID-19000-Final_Sprite_0
+[2020.08.28-01.26.19:401][988]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final_Sprite_00868138E4F0C9BCE6C2BF7A67ADCACE0.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final_Sprite_0.uasset'
+[2020.08.28-01.26.19:418][988]AssetCheck: New page: Asset Save: COVID-19000-Final_Sprite_0
+[2020.08.28-01.26.19:418][988]LogContentValidation: Display: Validating PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_0.COVID-19000-Final_Sprite_0
+[2020.08.28-01.26.20:186][ 34]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_2.COVID-19000-Final_Sprite_2
+[2020.08.28-01.26.31:500][696]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final_Sprite_2A1C5CEA949F36A4604AF02B06BB7E450.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final_Sprite_2.uasset'
+[2020.08.28-01.26.31:538][696]AssetCheck: New page: Asset Save: COVID-19000-Final_Sprite_2
+[2020.08.28-01.26.31:538][696]LogContentValidation: Display: Validating PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_2.COVID-19000-Final_Sprite_2
+[2020.08.28-01.26.32:236][737]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_1.COVID-19000-Final_Sprite_1
+[2020.08.28-01.26.37:119][ 19]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final_Sprite_1D1CFA2184145ACA739CFADA27DB46377.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final_Sprite_1.uasset'
+[2020.08.28-01.26.37:142][ 19]AssetCheck: New page: Asset Save: COVID-19000-Final_Sprite_1
+[2020.08.28-01.26.37:142][ 19]LogContentValidation: Display: Validating PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_1.COVID-19000-Final_Sprite_1
+[2020.08.28-01.26.41:474][274]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final_Sprite_03E48919D41821C422C94D5B851594FD8.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final_Sprite_0.uasset'
+[2020.08.28-01.26.41:489][274]AssetCheck: New page: Asset Save: COVID-19000-Final_Sprite_0
+[2020.08.28-01.26.41:490][274]LogContentValidation: Display: Validating PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_0.COVID-19000-Final_Sprite_0
+[2020.08.28-01.26.42:829][355]LogSlate: Window 'COVID-19000-Final_Sprite_1' being destroyed
+[2020.08.28-01.26.42:843][355]LogSlate: Window 'COVID-19000-Final_Sprite_1' being destroyed
+[2020.08.28-01.26.42:851][355]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.26.42:851][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.26.42:874][355]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.26.42:875][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.26.42:895][355]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.26.42:896][355]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.26.43:973][417]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_3.COVID-19000-Final_Sprite_3
+[2020.08.28-01.26.49:873][744]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final_Sprite_326FBA6B9449D5180A25D05A997DEED83.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final_Sprite_3.uasset'
+[2020.08.28-01.26.49:887][744]AssetCheck: New page: Asset Save: COVID-19000-Final_Sprite_3
+[2020.08.28-01.26.49:887][744]LogContentValidation: Display: Validating PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_3.COVID-19000-Final_Sprite_3
+[2020.08.28-01.26.51:021][810]LogSlate: Window 'COVID-19000-Final_Sprite_3' being destroyed
+[2020.08.28-01.26.51:046][810]LogSlate: Window 'COVID-19000-Final_Sprite_3' being destroyed
+[2020.08.28-01.26.51:054][810]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.26.51:054][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.26.52:176][875]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_4.COVID-19000-Final_Sprite_4
+[2020.08.28-01.26.56:671][127]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final_Sprite_4C75B9D974B2A6B965D96D69BBBBD0ACB.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final_Sprite_4.uasset'
+[2020.08.28-01.26.56:685][127]AssetCheck: New page: Asset Save: COVID-19000-Final_Sprite_4
+[2020.08.28-01.26.56:685][127]LogContentValidation: Display: Validating PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_4.COVID-19000-Final_Sprite_4
+[2020.08.28-01.26.57:805][196]LogSlate: Window 'COVID-19000-Final_Sprite_4' being destroyed
+[2020.08.28-01.26.57:829][196]LogSlate: Window 'COVID-19000-Final_Sprite_4' being destroyed
+[2020.08.28-01.26.57:837][196]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.26.57:837][196]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.26.59:356][285]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_5.COVID-19000-Final_Sprite_5
+[2020.08.28-01.27.05:722][651]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final_Sprite_5C6C980BC4B51A1749F7959AF7B9AD026.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final_Sprite_5.uasset'
+[2020.08.28-01.27.05:736][651]AssetCheck: New page: Asset Save: COVID-19000-Final_Sprite_5
+[2020.08.28-01.27.05:736][651]LogContentValidation: Display: Validating PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_5.COVID-19000-Final_Sprite_5
+[2020.08.28-01.27.06:961][727]LogSlate: Window 'COVID-19000-Final_Sprite_5' being destroyed
+[2020.08.28-01.27.06:979][727]LogSlate: Window 'COVID-19000-Final_Sprite_5' being destroyed
+[2020.08.28-01.27.06:987][727]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.27.06:987][727]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.27.08:157][795]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Art_Assets/CamsSet/COVID-19000-Final1.COVID-19000-Final1
+[2020.08.28-01.27.19:838][472]LogSlate: Window 'COVID-19000-Final1' being destroyed
+[2020.08.28-01.27.19:871][472]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.27.19:871][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.27.25:223][792]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/CamsSet/COVID-19000-Final.COVID-19000-Final
+[2020.08.28-01.27.29:940][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/CamsSet/COVID-19000-Final" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final.uasset" SILENT=true
+[2020.08.28-01.27.29:946][ 13]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-FinalE1080D964BDEC4FD50BA17AD14CABCF3.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final.uasset'
+[2020.08.28-01.27.29:964][ 13]AssetCheck: New page: Asset Save: COVID-19000-Final
+[2020.08.28-01.27.29:964][ 13]LogContentValidation: Display: Validating Texture2D /Game/Art_Assets/CamsSet/COVID-19000-Final.COVID-19000-Final
+[2020.08.28-01.27.30:440][ 36]LogSlate: Window 'COVID-19000-Final' being destroyed
+[2020.08.28-01.27.32:006][127]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Art_Assets/CamsSet/COVID-19000-Final1.COVID-19000-Final1
+[2020.08.28-01.27.43:624][806]LogSlate: Window 'COVID-19000-Final1' being destroyed
+[2020.08.28-01.27.43:652][806]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.27.43:652][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.27.47:090][ 10]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Art_Assets/CamsSet/COVID-19000-Final1.COVID-19000-Final1
+[2020.08.28-01.28.56:621][ 28]Cmd: TRANSACTION UNDO
+[2020.08.28-01.28.56:621][ 28]LogEditorTransaction: Undo Add Key Frame
+[2020.08.28-01.30.34:922][845]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/CamsSet/COVID-19000-Final1" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final1.uasset" SILENT=true
+[2020.08.28-01.30.34:925][845]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final18E7CC52748F1D5541EE91EBCB45648BA.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final1.uasset'
+[2020.08.28-01.30.34:947][845]AssetCheck: New page: Asset Save: COVID-19000-Final1
+[2020.08.28-01.30.34:947][845]LogContentValidation: Display: Validating PaperFlipbook /Game/Art_Assets/CamsSet/COVID-19000-Final1.COVID-19000-Final1
+[2020.08.28-01.30.36:902][965]LogSlate: Window 'COVID-19000-Final1' being destroyed
+[2020.08.28-01.30.36:935][965]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.30.36:935][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.30.48:673][668]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BlueprintsClasses/Enemies/BigEnemy.BigEnemy
+[2020.08.28-01.31.48:437][218]LogSlate: Window 'BigEnemy' being destroyed
+[2020.08.28-01.31.48:464][218]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.31.48:464][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.31.59:971][904]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/CamsSet/COVID-19000-Final.COVID-19000-Final
+[2020.08.28-01.32.07:006][318]LogTexture: Display: Building textures: COVID-19000-Final (BC7, 1844X164)
+[2020.08.28-01.32.08:940][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/CamsSet/COVID-19000-Final" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final.uasset" SILENT=true
+[2020.08.28-01.32.08:948][428]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final67C20B514C674B619E93B39762557117.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final.uasset'
+[2020.08.28-01.32.08:963][428]AssetCheck: New page: Asset Save: COVID-19000-Final
+[2020.08.28-01.32.08:963][428]LogContentValidation: Display: Validating Texture2D /Game/Art_Assets/CamsSet/COVID-19000-Final.COVID-19000-Final
+[2020.08.28-01.32.10:789][525]LogSlate: Window 'COVID-19000-Final' being destroyed
+[2020.08.28-01.32.14:686][757]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_0.COVID-19000-Final_Sprite_0
+[2020.08.28-01.32.23:904][306]LogSlate: Window 'COVID-19000-Final_Sprite_0' being destroyed
+[2020.08.28-01.32.23:920][306]LogSlate: Window 'COVID-19000-Final_Sprite_0' being destroyed
+[2020.08.28-01.32.23:928][306]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-01.32.23:928][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-01.32.33:122][856]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BlueprintsClasses/Enemies/BigEnemy.BigEnemy
+[2020.08.28-01.34.48:503][784]LogEditorTransaction: Undo Modify Component(s)
+[2020.08.28-01.37.39:198][866]LogEditorTransaction: Undo Set Scale
+[2020.08.28-01.38.12:457][819]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2020.08.28-01.38.12:460][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayLevel" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Saved/Autosaves/Game/PlayLevel_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.08.28-01.38.12:479][819]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/PlayLevel_Auto3D9EC6F9042512BF182AB70A0F0E7BA90.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Autosaves/Game/PlayLevel_Auto3.umap'
+[2020.08.28-01.38.12:481][819]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PlayLevel' took 0.076
+[2020.08.28-01.38.12:481][819]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.076
+[2020.08.28-01.38.12:481][819]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BlueprintsClasses/Enemies/BigEnemy] ([1] browsable assets)...
+[2020.08.28-01.38.12:481][819]OBJ SavePackage: Finished generating thumbnails for package [/Game/BlueprintsClasses/Enemies/BigEnemy]
+[2020.08.28-01.38.12:497][819]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/BigEnemy_Auto304D94F9E40F9026E4560F18538018EB9.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Autosaves/Game/BlueprintsClasses/Enemies/BigEnemy_Auto3.uasset'
+[2020.08.28-01.38.12:498][819]LogFileHelpers: Auto-saving content packages took 0.017
+[2020.08.28-01.41.03:055][593]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.08.28-01.41.03:072][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayLevel" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/PlayLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.08.28-01.41.03:099][593]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.28-01.41.03:118][593]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/PlayLevel83385EB14B4C761D0E750F97321924B6.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/PlayLevel.umap'
+[2020.08.28-01.41.03:135][593]LogFileHelpers: Saving map 'PlayLevel' took 0.063
+[2020.08.28-01.41.03:135][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintsClasses/Enemies/BigEnemy" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/BlueprintsClasses/Enemies/BigEnemy.uasset" SILENT=true
+[2020.08.28-01.41.03:151][593]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/BigEnemyB0D4396C4F9F2A03ED2FD3A1CEA19CFC.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/BlueprintsClasses/Enemies/BigEnemy.uasset'
+[2020.08.28-01.41.03:153][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintsClasses/Enemies/Enemy" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/BlueprintsClasses/Enemies/Enemy.uasset" SILENT=true
+[2020.08.28-01.41.03:166][593]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Enemy1868ECB44AFDB2E37E361CB2CF5E4B78.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/BlueprintsClasses/Enemies/Enemy.uasset'
+[2020.08.28-01.41.03:183][593]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.28-01.41.03:183][593]LogContentValidation: Display: Validating World /Game/PlayLevel.PlayLevel
+[2020.08.28-01.41.03:183][593]LogContentValidation: Display: Validating Blueprint /Game/BlueprintsClasses/Enemies/BigEnemy.BigEnemy
+[2020.08.28-01.41.03:183][593]LogContentValidation: Display: Validating Blueprint /Game/BlueprintsClasses/Enemies/Enemy.Enemy
+[2020.08.28-01.41.04:827][693]BlueprintLog: New page: Compile BigEnemy
+[2020.08.28-01.41.04:869][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.08.28-01.41.04:895][693]LogSlate: Took 0.002525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.08.28-01.41.13:761][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintsClasses/Enemies/BigEnemy" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/BlueprintsClasses/Enemies/BigEnemy.uasset" SILENT=true
+[2020.08.28-01.41.13:777][225]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/BigEnemy6B8BB7E9436EB633E807FB9E5A4164B4.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/BlueprintsClasses/Enemies/BigEnemy.uasset'
+[2020.08.28-01.41.13:838][225]AssetCheck: New page: Asset Save: BigEnemy
+[2020.08.28-01.41.13:838][225]LogContentValidation: Display: Validating Blueprint /Game/BlueprintsClasses/Enemies/BigEnemy.BigEnemy
+[2020.08.28-01.41.15:732][328]LogSlate: Window 'BigEnemy' being destroyed
+[2020.08.28-01.51.03:419][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.08.28-01.51.03:421][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PlayLevel" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Saved/Autosaves/Game/PlayLevel_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.08.28-01.51.03:440][643]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/PlayLevel_Auto4979A2D2D43FC1BDB86D279B0C0CEBF3A.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Autosaves/Game/PlayLevel_Auto4.umap'
+[2020.08.28-01.51.03:442][643]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PlayLevel' took 0.050
+[2020.08.28-01.51.03:442][643]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.050
+[2020.08.28-02.32.54:008][630]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WolfsMind\Documents\Aseprite\Spore - Green.png)
+[2020.08.28-02.32.54:010][630]LogTexture: Display: Building textures: Spore_-_Green (AutoDXT, 120X120)
+[2020.08.28-02.32.54:019][630]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\WolfsMind\Documents\Aseprite\Spore - Red.png)
+[2020.08.28-02.32.54:020][630]LogTexture: Display: Building textures: Spore_-_Red (AutoDXT, 120X120)
+[2020.08.28-02.32.59:116][934]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/CamsSet/Spore_-_Green.Spore_-_Green
+[2020.08.28-02.33.03:749][210]LogTexture: Display: Building textures: Spore_-_Green (BC7, 120X120)
+[2020.08.28-02.33.06:654][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/CamsSet/Spore_-_Green" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/Spore_-_Green.uasset" SILENT=true
+[2020.08.28-02.33.06:657][382]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Spore_-_Green2434AC0045EA1B7600D99C93A0A1C4E5.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/Spore_-_Green.uasset'
+[2020.08.28-02.33.06:677][382]AssetCheck: New page: Asset Save: Spore_-_Green
+[2020.08.28-02.33.06:677][382]LogContentValidation: Display: Validating Texture2D /Game/Art_Assets/CamsSet/Spore_-_Green.Spore_-_Green
+[2020.08.28-02.33.08:801][510]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/CamsSet/Spore_-_Red.Spore_-_Red
+[2020.08.28-02.33.12:467][728]LogTexture: Display: Building textures: Spore_-_Red (BC7, 120X120)
+[2020.08.28-02.33.13:368][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/CamsSet/Spore_-_Red" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/Spore_-_Red.uasset" SILENT=true
+[2020.08.28-02.33.13:370][780]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Spore_-_RedAAA07B9449F8668CE1F1C19ED8C68871.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/Spore_-_Red.uasset'
+[2020.08.28-02.33.13:396][780]AssetCheck: New page: Asset Save: Spore_-_Red
+[2020.08.28-02.33.13:396][780]LogContentValidation: Display: Validating Texture2D /Game/Art_Assets/CamsSet/Spore_-_Red.Spore_-_Red
+[2020.08.28-02.33.44:070][620]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.08.28-02.33.50:862][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2020.08.28-02.33.50:924][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.08.28-02.33.50:927][ 24]LogMetaData: Removing '/Game/BlueprintsClasses/Enemies/SporeRed.SporeRed:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BlueprintsClasses/Enemies/Enemy.PackageMetaData'
+[2020.08.28-02.33.50:927][ 24]LogMetaData: Removing '/Game/BlueprintsClasses/Enemies/SporeRed.SporeRed_C' ref from Metadata '/Game/BlueprintsClasses/Enemies/Enemy.PackageMetaData'
+[2020.08.28-02.33.50:927][ 24]LogMetaData: Removing '/Game/BlueprintsClasses/Enemies/SporeRed.SporeRed:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BlueprintsClasses/Enemies/Enemy.PackageMetaData'
+[2020.08.28-02.33.50:927][ 24]LogMetaData: Removing '/Game/BlueprintsClasses/Enemies/SporeRed.SporeRed:DestroyEnemyShip.K2Node_FunctionEntry_0' ref from Metadata '/Game/BlueprintsClasses/Enemies/Enemy.PackageMetaData'
+[2020.08.28-02.33.50:927][ 24]LogMetaData: Removing '/Game/BlueprintsClasses/Enemies/SporeRed.SKEL_SporeRed_C' ref from Metadata '/Game/BlueprintsClasses/Enemies/Enemy.PackageMetaData'
+[2020.08.28-02.33.50:951][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintsClasses/Enemies/SporeRed" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/BlueprintsClasses/Enemies/SporeRed.uasset" SILENT=true
+[2020.08.28-02.33.50:961][ 24]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/SporeRed6E65B5974DD46B0017AFC9814F298A44.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/BlueprintsClasses/Enemies/SporeRed.uasset'
+[2020.08.28-02.33.50:963][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BlueprintsClasses/Enemies/Enemy" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/BlueprintsClasses/Enemies/Enemy.uasset" SILENT=true
+[2020.08.28-02.33.50:969][ 24]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Enemy721D54924981CA54B84049AD680BC0FB.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/BlueprintsClasses/Enemies/Enemy.uasset'
+[2020.08.28-02.33.51:006][ 24]AssetCheck: New page: Asset Save: multiple assets
+[2020.08.28-02.33.51:006][ 24]LogContentValidation: Display: Validating Blueprint /Game/BlueprintsClasses/Enemies/SporeRed.SporeRed
+[2020.08.28-02.33.51:006][ 24]LogContentValidation: Display: Validating ObjectRedirector /Game/BlueprintsClasses/Enemies/Enemy.Enemy
+[2020.08.28-02.33.51:006][ 24]LogContentValidation: Display: Validating ObjectRedirector /Game/BlueprintsClasses/Enemies/Enemy.Enemy_C
+[2020.08.28-02.33.53:101][153]Cmd: TRANSACTION UNDO
+[2020.08.28-02.33.53:101][153]LogEditorTransaction: Undo Edit Compression Settings
+[2020.08.28-02.33.53:883][198]Cmd: TRANSACTION UNDO
+[2020.08.28-02.33.53:883][198]LogEditorTransaction: Undo Edit Filter
+[2020.08.28-02.34.00:800][611]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BlueprintsClasses/Enemies/PoisonSpore.PoisonSpore
+[2020.08.28-02.34.05:432][874]Cmd: TRANSACTION UNDO
+[2020.08.28-02.34.05:432][874]LogEditorTransaction: Undo Edit Compression Settings
+[2020.08.28-02.34.05:840][895]Cmd: TRANSACTION UNDO
+[2020.08.28-02.34.05:840][895]LogEditorTransaction: Undo Edit Filter
+[2020.08.28-02.34.12:788][314]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-02.34.12:788][314]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-02.34.13:176][338]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.08.28-02.34.13:176][338]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-02.34.13:176][338]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-02.34.13:698][369]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2020.08.28-02.34.13:698][369]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-02.34.13:698][369]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-02.34.20:432][771]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/CamsSet/Spore_-_Red.Spore_-_Red
+[2020.08.28-02.34.25:118][ 48]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/CamsSet/Spore_-_Red" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/Spore_-_Red.uasset" SILENT=true
+[2020.08.28-02.34.25:125][ 48]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Spore_-_Red070E33C242C60AE5816E6488793B3EFC.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/Spore_-_Red.uasset'
+[2020.08.28-02.34.25:140][ 48]AssetCheck: New page: Asset Save: Spore_-_Red
+[2020.08.28-02.34.25:140][ 48]LogContentValidation: Display: Validating Texture2D /Game/Art_Assets/CamsSet/Spore_-_Red.Spore_-_Red
+[2020.08.28-02.34.28:316][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/CamsSet/Spore_-_Red" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/Spore_-_Red.uasset" SILENT=true
+[2020.08.28-02.34.28:323][239]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Spore_-_Red5753A25F4E180D71E569E9A3234C3424.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/Spore_-_Red.uasset'
+[2020.08.28-02.34.28:335][239]AssetCheck: New page: Asset Save: Spore_-_Red
+[2020.08.28-02.34.28:335][239]LogContentValidation: Display: Validating Texture2D /Game/Art_Assets/CamsSet/Spore_-_Red.Spore_-_Red
+[2020.08.28-02.34.29:866][332]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/CamsSet/Spore_-_Green.Spore_-_Green
+[2020.08.28-02.34.35:519][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/CamsSet/Spore_-_Green" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/Spore_-_Green.uasset" SILENT=true
+[2020.08.28-02.34.35:527][667]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/Spore_-_Green85535B084497CE91262FBDAA09879005.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/Spore_-_Green.uasset'
+[2020.08.28-02.34.35:539][667]AssetCheck: New page: Asset Save: Spore_-_Green
+[2020.08.28-02.34.35:539][667]LogContentValidation: Display: Validating Texture2D /Game/Art_Assets/CamsSet/Spore_-_Green.Spore_-_Green
+[2020.08.28-02.34.38:584][850]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Art_Assets/CamsSet/COVID-19000-Final1.COVID-19000-Final1
+[2020.08.28-02.34.47:580][387]LogSlate: Window 'COVID-19000-Final1' being destroyed
+[2020.08.28-02.34.47:613][387]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-02.34.47:613][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-02.34.48:748][455]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Art_Assets/CamsSet/COVID-19000-Final_Sprite_0.COVID-19000-Final_Sprite_0
+[2020.08.28-02.34.52:450][672]LogSlate: Window 'COVID-19000-Final_Sprite_0' being destroyed
+[2020.08.28-02.34.52:477][672]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-02.34.52:477][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-02.34.55:880][875]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/CamsSet/COVID-19000-Final.COVID-19000-Final
+[2020.08.28-02.35.10:617][746]LogTexture: Display: Building textures: COVID-19000-Final (BC7, 1844X164)
+[2020.08.28-02.35.19:166][230]LogSlate: Window 'COVID-19000-Final' being destroyed
+[2020.08.28-02.35.40:067][485]Cmd: TRANSACTION UNDO
+[2020.08.28-02.35.40:067][485]LogEditorTransaction: Undo Create Actors
+[2020.08.28-02.35.41:917][591]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BlueprintsClasses/Enemies/SporeGreen.SporeGreen
+[2020.08.28-02.35.45:203][762]LogSlate: Window 'SporeGreen' being destroyed
+[2020.08.28-02.35.47:672][909]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-02.35.47:672][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-02.35.53:993][287]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BlueprintsClasses/Enemies/PoisonSpore.PoisonSpore
+[2020.08.28-02.35.57:196][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.08.28-02.35.58:495][462]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.28-02.35.58:974][462]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BlueprintsClasses/Enemies/SporeGreen.SporeGreen
+[2020.08.28-02.35.59:489][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.08.28-02.36.00:725][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.08.28-02.36.08:126][538]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.28-02.36.11:348][733]Cmd: TRANSACTION UNDO
+[2020.08.28-02.36.11:348][733]LogEditorTransaction: Undo Edit Power Of Two Mode
+[2020.08.28-02.36.15:644][987]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BlueprintsClasses/Enemies/SporeRed.SporeRed
+[2020.08.28-02.36.27:743][697]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BlueprintsClasses/Player/PlayerShip.PlayerShip
+[2020.08.28-02.36.50:874][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.08.28-02.36.55:407][ 67]LogSlate: Window 'Delete Assets' being destroyed
+[2020.08.28-02.36.56:355][ 67]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.08.28-02.36.56:355][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.28-02.36.56:404][ 67]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BlueprintsClasses/Enemies/PoisonSpore.PoisonSpore
+[2020.08.28-02.36.56:751][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2020.08.28-02.36.56:774][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2020.08.28-02.36.56:796][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.08.28-02.37.04:895][553]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.08.28-02.37.17:209][291]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BlueprintsClasses/Enemies/BigEnemy.BigEnemy
+[2020.08.28-02.37.36:126][410]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Art_Assets/CamsSet/COVID-19000-Final.COVID-19000-Final
+[2020.08.28-02.37.42:395][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art_Assets/CamsSet/COVID-19000-Final" FILE="../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final.uasset" SILENT=true
+[2020.08.28-02.37.42:403][762]LogSavePackage: Moving '../../../../../../Users/Work/Desktop/SpaceGame/Saved/COVID-19000-Final780B328E4497908D61A7D3A013BE7241.tmp' to '../../../../../../Users/Work/Desktop/SpaceGame/Content/Art_Assets/CamsSet/COVID-19000-Final.uasset'
+[2020.08.28-02.37.42:422][762]AssetCheck: New page: Asset Save: COVID-19000-Final
+[2020.08.28-02.37.42:422][762]LogContentValidation: Display: Validating Texture2D /Game/Art_Assets/CamsSet/COVID-19000-Final.COVID-19000-Final
+[2020.08.28-02.37.42:861][791]LogSlate: Window 'COVID-19000-Final' being destroyed
+[2020.08.28-02.38.04:764][106]LogEditorViewport: Clicking on Actor (LMB): SporeRed_C (Enemy7)
+[2020.08.28-02.38.21:680][911]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.08.28-02.38.38:113][911]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Query.cpp:348 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2020.08.28-02.38.58:065][911]LogRHI: Error: [Aftermath] Status: Timeout
+[2020.08.28-02.38.58:065][911]LogRHI: Error: [Aftermath] GPU Stack Dump
+[2020.08.28-02.38.58:065][911]LogRHI: Error: [Aftermath] 0: FRAME
+[2020.08.28-02.38.58:065][911]LogRHI: Error: [Aftermath] 1: SlateUI Title = StartGame - Unreal Editor
+[2020.08.28-02.38.58:065][911]LogRHI: Error: [Aftermath] GPU Stack Dump
+[2020.08.28-02.38.58:074][911]LogD3D11RHI: [Aftermath] GDynamicRHI=000001D8C10720C0, GDX11NVAfterMathEnabled=1, Result=0x00000001, bDeviceActive=0
+[2020.08.28-02.38.58:075][911]LogWindows: Windows GetLastError: The operation completed successfully. (0)

@@ -1,0 +1,19 @@
+added lfs support
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Changes to be committed:
+#	new file:   .gitattributes
+#
+# Changes not staged for commit:
+#	modified:   Intermediate/Staging/StartGame.exe
+#	modified:   Saved/StagedBuilds/WindowsNoEditor/Engine/Binaries/Win64/UE4Game.exe
+#	modified:   Saved/StagedBuilds/WindowsNoEditor/Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe
+#	modified:   Saved/StagedBuilds/WindowsNoEditor/StartGame.exe
+#	modified:   Saved/StagedBuilds/WindowsNoEditor/StartGame/Content/Paks/StartGame-WindowsNoEditor.pak
+#	modified:   Windows-Build/WindowsNoEditor/Engine/Binaries/Win64/UE4Game.exe
+#	modified:   Windows-Build/WindowsNoEditor/Engine/Extras/Redist/en-us/UE4PrereqSetup_x64.exe
+#	modified:   Windows-Build/WindowsNoEditor/StartGame.exe
+#	modified:   Windows-Build/WindowsNoEditor/StartGame/Content/Paks/StartGame-WindowsNoEditor.pak
+#
